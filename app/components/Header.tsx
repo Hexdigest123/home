@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className="flex">
+    <div className="flex">
       <div className="min-w-48 border-y border-gray-300"></div>
       <div className="flex justify-between w-full border border-gray-300">
         <a href="/" className="border-x border-gray-300 py-1 px-2">
@@ -26,6 +26,6 @@ export default function Header() {
         </a>
       </div>
       <div className="min-w-48 border-y border-gray-300"></div>
-    </header>
+    </div>
   );
 }
